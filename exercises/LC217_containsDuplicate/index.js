@@ -1,5 +1,6 @@
 /**
- * 
+ * time complexity: O(N) - loop through each item in nums
+ * space complexity: O(N) - # of keys in the hash table
  * look up time of object is O(1), while array is O(N) 
  */
 const containsDuplicate = nums => {
@@ -13,7 +14,6 @@ const containsDuplicate = nums => {
         }
     }
     return false;
-
 };
 
 module.exports = containsDuplicate;
